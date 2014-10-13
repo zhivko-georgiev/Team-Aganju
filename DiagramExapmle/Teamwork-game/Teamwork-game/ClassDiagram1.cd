@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Могат да се добавят обикновеени,подобрени или епични итеми">
+    <Position X="9.167" Y="8.219" Height="0.75" Width="2.7" />
+  </Comment>
+  <Class Name="Teamwork_game.GameObject" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Character" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.NPC.Non_Player_Character" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.NPC\Non_Player_Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Enemy.Enemy_Character" Collapsed="true">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.Enemy\Enemy_Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Player.Player" Collapsed="true">
+    <Position X="4.25" Y="6" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Player.Mage" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.Player\Mage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Player.Warrior" Collapsed="true">
+    <Position X="3.5" Y="7" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.Player\Warrior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Player.Priest" Collapsed="true">
+    <Position X="3.5" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.Player\Priest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.NPC.Guard" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.NPC\Guard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.NPC.ClassTrainer" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.NPC\ClassTrainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.NPC.NPC_Shop" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.NPC\NPC_Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.NPC.NPC_Quest" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.NPC\NPC_Quest.cs</FileName>
+      <NewMemberFileName>Game.Character.NPC\NPC_QUest.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Character.Enemy.EmenyBoss" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Character.Enemy\EmenyBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Animals.Animal" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Animals\Animal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Game.Animals.NeutralAnimal" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Animals\NeutralAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Game.Animals.AggroAnimal" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Animals\AggroAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Items" Collapsed="true">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.HealItems" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.DamageItems" Collapsed="true">
+    <Position X="10.75" Y="7.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DamageItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.RareEnemy" Collapsed="true">
+    <Position X="2" Y="6.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RareEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.OrdinaryEnemy" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrdinaryEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.EliteEnemy" Collapsed="true">
+    <Position X="1.75" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EliteEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Zombie" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Human" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Orc" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.EliteHuman" Collapsed="true">
+    <Position X="2" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EliteHuman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.EliteOrc" Collapsed="true">
+    <Position X="2" Y="10" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EliteOrc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.EliteZombie" Collapsed="true">
+    <Position X="2" Y="10.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EliteZombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teamwork_game.Hunter" Collapsed="true">
+    <Position X="5.25" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hunter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Teamwork_game.Druid" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Druid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Teamwork_game.Game.Interfaces.IPlayer" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\Iplayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IHeal" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IHeal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IAttack" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IAttack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.ICast" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\ICast.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IMele" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IMele.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IMove" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IDropMoney" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IMoneyDrop.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IDropItem" Collapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IDropItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.Game.Interfaces.IDropConsumable" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.Interfaces\IDropConsumable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.IPet" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Teamwork_game.ISkills" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISkills.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

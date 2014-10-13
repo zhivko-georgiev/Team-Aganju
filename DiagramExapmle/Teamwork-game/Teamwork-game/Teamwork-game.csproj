@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF7AE168-9452-49AD-B559-7E1F1447DBC0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teamwork_game</RootNamespace>
+    <AssemblyName>Teamwork-game</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DamageItems.cs" />
+    <Compile Include="Druid.cs" />
+    <Compile Include="EliteEnemy.cs" />
+    <Compile Include="EliteHuman.cs" />
+    <Compile Include="EliteOrc.cs" />
+    <Compile Include="EliteZombie.cs" />
+    <Compile Include="EpicItems.cs" />
+    <Compile Include="Game.Animals\AggroAnimal.cs" />
+    <Compile Include="Game.Animals\Animal.cs" />
+    <Compile Include="Game.Character\Character.cs" />
+    <Compile Include="Game.Character.Enemy\EmenyBoss.cs" />
+    <Compile Include="Game.Character.Enemy\Enemy_Character.cs" />
+    <Compile Include="Game.Character.NPC\Guard.cs" />
+    <Compile Include="Game.Interfaces\IAttack.cs" />
+    <Compile Include="Game.Interfaces\ICast.cs" />
+    <Compile Include="Game.Interfaces\IDropConsumable.cs" />
+    <Compile Include="Game.Interfaces\IDropItem.cs" />
+    <Compile Include="Game.Interfaces\IHeal.cs" />
+    <Compile Include="Game.Interfaces\IMele.cs" />
+    <Compile Include="Game.Interfaces\IMoneyDrop.cs" />
+    <Compile Include="Game.Interfaces\IMove.cs" />
+    <Compile Include="Game.Interfaces\Iplayer.cs" />
+    <Compile Include="Game.Character.Player\Mage.cs" />
+    <Compile Include="Game.Animals\NeultralAnimal.cs" />
+    <Compile Include="Game.Animals\NeutralAnimal.cs" />
+    <Compile Include="Game.Character.NPC\Non_Player_Character.cs" />
+    <Compile Include="Game.Character.NPC\NPC_Quest.cs" />
+    <Compile Include="Game.Character.NPC\NPC_Shop.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Game.Character.Player\Player.cs" />
+    <Compile Include="Game.Character.Player\Priest.cs" />
+    <Compile Include="Game.Character.NPC\ClassTrainer.cs" />
+    <Compile Include="Game.Character.Player\Warrior.cs" />
+    <Compile Include="Game.Animals\Wolf.cs" />
+    <Compile Include="HealItems.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="IFight.cs" />
+    <Compile Include="IHeal.cs" />
+    <Compile Include="IPet.cs" />
+    <Compile Include="ISkills.cs" />
+    <Compile Include="Items.cs" />
+    <Compile Include="Orc.cs" />
+    <Compile Include="OrdinaryEnemy.cs" />
+    <Compile Include="OrdinaryItems.cs" />
+    <Compile Include="RareEnemy.cs" />
+    <Compile Include="Zombie.cs" />
+    <Compile Include="Hunter.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
