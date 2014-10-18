@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="YorubaMyths.GameObjects.Characters.Character" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.EnemyCharacter" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\EnemyCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Hunter" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABhAAAAAAAAAAAAAAIAACAAAAQACAAAAAABAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Hunter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Mage" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Mage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.NeutralCharacter" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\NeutralCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Warrior" Collapsed="true">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAIAAAEAAAAAAAAgAgAAAAABAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Player.PlayerCast" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIACAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Player\PlayerCast.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Player.PlayerCharacter" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAABAAAAAAAAQAIAAEAAAAAIAACRSAEAAM=</HashCode>
+      <FileName>GameObjects\Characters\Player\PlayerCharacter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Player.PlayerMele" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAiBAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Player\PlayerMele.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Characters.Player.PlayerRange" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAiAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Characters\Player\PlayerRange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.GameObject" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Items.AttackItem" Collapsed="true">
+    <Position X="15.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>GameObjects\Items\AttackItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Items.Bow" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Bow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Items.CasterItem" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgA=</HashCode>
+      <FileName>GameObjects\Items\CasterItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Items.Item" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAIAAAAAIAAAAAABAAAAiA=</HashCode>
+      <FileName>GameObjects\Items\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YorubaMyths.GameObjects.Items.Sword" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIEA=</HashCode>
+      <FileName>GameObjects\Items\Sword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.Myths" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAkEAAAAACAwAAAAAAAAAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Myths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YorubaMyths.YorubaMythsGame" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>YorubaMythsGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="YorubaMyths.GameObjects.Items.Slots" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAQAQAAQIAAAAABAAAAAQAAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Slots.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="YorubaMyths.Interfaces.IAttack" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IAttack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.IAttackItem" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IAttackItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.ICast" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICast.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.ICastable" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIACAAAA=</HashCode>
+      <FileName>Interfaces\ICastable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.ICastaerItem" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICastaerItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.ICharacter" Collapsed="true">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICharacter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.IItem" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAgA=</HashCode>
+      <FileName>Interfaces\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.IMele" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMele.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.IMovable" Collapsed="true">
+    <Position X="21.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.IPlayer" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACQQAAAAA=</HashCode>
+      <FileName>Interfaces\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.IRange" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRange.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YorubaMyths.Interfaces.ISlots" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAQAQAAQIAAAAABAAAAAQAAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISlots.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="YorubaMyths.GameObjects.Items.ItemType" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAQAQAAQIAAAAABAAAAAQAAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\ItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

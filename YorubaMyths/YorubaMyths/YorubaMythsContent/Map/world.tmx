@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+ <tileset firstgid="1" name="MapTileset" tilewidth="32" tileheight="32">
+  <image source="MapTileset.png" trans="ff00ff" width="512" height="512"/>
+  <terraintypes>
+   <terrain name="Path" tile="17"/>
+  </terraintypes>
+  <tile id="0" terrain=",,,0"/>
+  <tile id="1" terrain=",,0,0"/>
+  <tile id="2" terrain=",,0,"/>
+  <tile id="16" terrain=",0,,0"/>
+  <tile id="17" terrain="0,0,0,0"/>
+  <tile id="18" terrain="0,,0,"/>
+  <tile id="32" terrain=",0,,"/>
+  <tile id="33" terrain="0,0,,"/>
+  <tile id="34" terrain="0,,,"/>
+  <tile id="48" terrain="0,0,0,"/>
+  <tile id="49" terrain="0,0,,0"/>
+  <tile id="64" terrain="0,,0,0"/>
+  <tile id="65" terrain=",0,0,0"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHrH+cTLsdAwVVTVVVVVVVVVVXV5w9QbMqj
+  </data>
+ </layer>
+ <layer name="Path" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl+ENgyAQRrGdwDqB7QS6QV21LtIRulEhkeRyPRD0UGu+l9yfBpHnxxFqzLmpbF0y6rrPMn/g6x5s3TLqaY7hWSeut7N1J9UnPkc9Szm5LFK/f8OebSNenZE9vZO2T2oWkkdsLjc25ul8NF00PVqyVj+W9h7PXdMlx2Oun+laG5O2Z+e+zRIP3se5/cydBza3NE8Jj9Ccfgz17CO/Sefcw8jZa3nQPR06S/z7m8Bvn6nek08rONBnSnhI8/P+i3m4sS9bI/GphblCvVLSg2cjefCzaSQlfZdQv5f2kNbA30n9vEM1VcpZQPdcaY/Quctz8g45dzPNLHI8Qjl5v9z7pbYH3etblraHY0kma0q7N/byKJGFY8u9VSoL6rLmTrV3FhL8v8Pae+NWWeQQcpzzO5JDjFiGrv7BAQAAAAAAAAAAAAAAcG6+H0Y7/Q==
+  </data>
+ </layer>
+</map>
