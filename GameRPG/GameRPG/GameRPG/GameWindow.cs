@@ -42,6 +42,7 @@ namespace GameRPG
         {
             // TODO: Add your initialization logic here
 
+            this.IsMouseVisible = true;
             base.Initialize();
             mapView = graphics.GraphicsDevice.Viewport.Bounds;
         }
@@ -92,6 +93,11 @@ namespace GameRPG
             if (map.Bounds.Contains(delta))
                 mapView = delta;
 
+
+            MouseState mouseState = Mouse.GetState();
+            var mousePosition = new Point(mouseState.X, mouseState.Y);
+            // TODO: Add some mouse logic here
+            
             base.Update(gameTime);
         }
 
