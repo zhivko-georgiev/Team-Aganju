@@ -24,6 +24,7 @@ namespace YorubaMyths
         Texture2D BlankTexture;
         RenderTarget2D OffScreenRenderTarget;
 
+        Texture2D customCursor;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Rectangle mapView;
@@ -34,14 +35,15 @@ namespace YorubaMyths
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferWidth = WindowWidth;
             graphics.PreferredBackBufferHeight = WindowHeight;
-            
+
             this.graphics.IsFullScreen = false;
             this.Window.AllowUserResizing = true;
             this.Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
-            
+
             // For full screen
             //this.graphics.IsFullScreen = true;
 
+            this.IsMouseVisible = false;
             Content.RootDirectory = "Content";
         }
 
@@ -82,7 +84,7 @@ namespace YorubaMyths
         {
             // TODO: Add your initialization logic here
 
-            this.IsMouseVisible = true;
+
             base.Initialize();
             mapView = graphics.GraphicsDevice.Viewport.Bounds;
         }
@@ -97,6 +99,7 @@ namespace YorubaMyths
             spriteBatch = new SpriteBatch(GraphicsDevice);
             map = Content.Load<Map>("Level1/Level1");
 
+            customCursor = Content.Load<Texture2D>("mouseCursor");
             AspectRatio = GraphicsDevice.Viewport.AspectRatio;
             OldWindowSize = new Point(Window.ClientBounds.Width, Window.ClientBounds.Height);
 
@@ -187,20 +190,21 @@ namespace YorubaMyths
             spriteBatch.Begin();
             spriteBatch.Draw(BlankTexture, new Rectangle(100, 100, 100, 100), Color.White);
             map.Draw(spriteBatch, mapView);
+            spriteBatch.Draw(this.customCursor, new Vector2(Mouse.GetState().X, Mouse.GetState().Y), Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
 
 
 
             // TODO: Add your drawing code here
-/*
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            /*
+                        GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            spriteBatch.Begin();
-            map.Draw(spriteBatch, mapView);
-            spriteBatch.End();
+                        spriteBatch.Begin();
+                        map.Draw(spriteBatch, mapView);
+                        spriteBatch.End();
 
-            base.Draw(gameTime);*/
+                        base.Draw(gameTime);*/
         }
 
         protected override void EndDraw()
