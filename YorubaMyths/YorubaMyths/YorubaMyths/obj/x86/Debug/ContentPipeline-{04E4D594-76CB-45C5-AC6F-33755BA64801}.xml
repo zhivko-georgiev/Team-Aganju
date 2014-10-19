@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Map\world.tmx</Source>
+      <Name>Map\world</Name>
+      <Importer>TMXContentImporter</Importer>
+      <Processor>TMXContentProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Map\world.xnb</Output>
+      <Time>2014-10-19T12:49:15.7933713+03:00</Time>
+      <Request>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Map\world\00.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level1\Level1.tmx</Source>
+      <Name>Level1\Level1</Name>
+      <Importer>TMXContentImporter</Importer>
+      <Processor>TMXContentProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1.xnb</Output>
+      <Time>2014-10-19T12:49:15.6033696+03:00</Time>
+      <Request>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1\00.xnb</Request>
+      <Request>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1\01.xnb</Request>
+      <Request>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1\02.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Map\MapTileset.png</Source>
+      <Name>Map\MapTileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Map\MapTileset.xnb</Output>
+      <Time>2014-10-19T12:49:15.7533716+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Tiles\collision.png</Source>
+      <Name>Map\Tiles\collision</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Map\Tiles\collision.xnb</Output>
+      <Time>2014-10-19T12:49:15.7633704+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Tiles\plant repack_2.png</Source>
+      <Name>Map\Tiles\plant repack_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Map\Tiles\plant repack_2.xnb</Output>
+      <Time>2014-10-19T12:49:15.7733702+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1\collision.png</Source>
+      <Name>Level1\collision</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\collision.xnb</Output>
+      <Time>2014-10-19T12:49:15.6233707+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1\MapTileset.png</Source>
+      <Name>Level1\MapTileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\MapTileset.xnb</Output>
+      <Time>2014-10-19T12:49:15.613371+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1\tree.png</Source>
+      <Name>Level1\tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\tree.xnb</Output>
+      <Time>2014-10-19T12:49:15.6533706+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\boss.png</Source>
+      <Name>Sprite\boss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\boss.xnb</Output>
+      <Time>2014-10-19T12:49:16.2433705+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\enemy_easy.png</Source>
+      <Name>Sprite\enemy_easy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\enemy_easy.xnb</Output>
+      <Time>2014-10-19T12:49:16.3533708+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\enemy_middle.png</Source>
+      <Name>Sprite\enemy_middle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\enemy_middle.xnb</Output>
+      <Time>2014-10-19T12:49:16.3633706+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\hero.png</Source>
+      <Name>Sprite\hero</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\hero.xnb</Output>
+      <Time>2014-10-19T12:49:16.3933725+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_axe1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_axe1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_axe1.xnb</Output>
+      <Time>2014-10-19T12:49:16.5033728+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_axe2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_axe2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_axe2.xnb</Output>
+      <Time>2014-10-19T12:49:16.513372+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_axe3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_axe3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_axe3.xnb</Output>
+      <Time>2014-10-19T12:49:16.5233718+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_bigclub1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_bigclub1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_bigclub1.xnb</Output>
+      <Time>2014-10-19T12:49:16.953372+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_bigclub2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_bigclub2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_bigclub2.xnb</Output>
+      <Time>2014-10-19T12:49:16.9633718+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_bigclub3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_bigclub3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_bigclub3.xnb</Output>
+      <Time>2014-10-19T12:49:16.9733819+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_Bow1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_Bow1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_Bow1.xnb</Output>
+      <Time>2014-10-19T12:49:16.4133711+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_Bow2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_Bow2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_Bow2.xnb</Output>
+      <Time>2014-10-19T12:49:16.4233719+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_Bow3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_Bow3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_Bow3.xnb</Output>
+      <Time>2014-10-19T12:49:16.4633715+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_claw1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_claw1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_claw1.xnb</Output>
+      <Time>2014-10-19T12:49:16.9733819+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_claw2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_claw2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_claw2.xnb</Output>
+      <Time>2014-10-19T12:49:16.9833724+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_claw3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_claw3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_claw3.xnb</Output>
+      <Time>2014-10-19T12:49:16.9933717+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_dagger1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_dagger1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_dagger1.xnb</Output>
+      <Time>2014-10-19T12:49:17.0033807+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_dagger2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_dagger2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_dagger2.xnb</Output>
+      <Time>2014-10-19T12:49:17.1333728+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_dagger3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_dagger3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_dagger3.xnb</Output>
+      <Time>2014-10-19T12:49:17.2633737+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_halberd1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_halberd1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_halberd1.xnb</Output>
+      <Time>2014-10-19T12:49:17.2633737+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_halberd2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_halberd2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_halberd2.xnb</Output>
+      <Time>2014-10-19T12:49:17.2833728+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_halberd3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_halberd3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_halberd3.xnb</Output>
+      <Time>2014-10-19T12:49:17.2833728+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\ICON_hammer1.png.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\ICON_hammer1.png</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\ICON_hammer1.png.xnb</Output>
+      <Time>2014-10-19T12:49:16.4033733+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_hammer2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_hammer2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_hammer2.xnb</Output>
+      <Time>2014-10-19T12:49:17.2933726+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_hammer3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_hammer3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_hammer3.xnb</Output>
+      <Time>2014-10-19T12:49:17.3033734+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_spear1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_spear1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_spear1.xnb</Output>
+      <Time>2014-10-19T12:49:17.3133737+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_spear2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_spear2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_spear2.xnb</Output>
+      <Time>2014-10-19T12:49:17.3233735+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_spear3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_spear3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_spear3.xnb</Output>
+      <Time>2014-10-19T12:49:17.3333743+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_staff1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_staff1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_staff1.xnb</Output>
+      <Time>2014-10-19T12:49:17.3533728+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_staff2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_staff2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_staff2.xnb</Output>
+      <Time>2014-10-19T12:49:17.393373+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_staff3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_staff3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_staff3.xnb</Output>
+      <Time>2014-10-19T12:49:17.4033733+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_long1.xnb</Output>
+      <Time>2014-10-19T12:49:17.4133736+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_long2.xnb</Output>
+      <Time>2014-10-19T12:49:17.4233744+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_long3.xnb</Output>
+      <Time>2014-10-19T12:49:17.4333737+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long4.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_long4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_long4.xnb</Output>
+      <Time>2014-10-19T12:49:17.443373+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_short1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_short1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_short1.xnb</Output>
+      <Time>2014-10-19T12:49:17.4533728+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_short2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_short2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_short2.xnb</Output>
+      <Time>2014-10-19T12:49:17.9733813+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_sword_short3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_sword_short3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_sword_short3.xnb</Output>
+      <Time>2014-10-19T12:49:18.0733818+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_XBow1.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_XBow1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_XBow1.xnb</Output>
+      <Time>2014-10-19T12:49:16.4833711+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_XBow2.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_XBow2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_XBow2.xnb</Output>
+      <Time>2014-10-19T12:49:16.4833711+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\weaponIcons32x32_png_Transparent\icon_XBow3.png</Source>
+      <Name>Sprite\weaponIcons32x32_png_Transparent\icon_XBow3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Sprite\weaponIcons32x32_png_Transparent\icon_XBow3.xnb</Output>
+      <Time>2014-10-19T12:49:16.493373+03:00</Time>
+    </Item>
+    <Item>
+      <Source>mouseCursor.png</Source>
+      <Name>mouseCursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\mouseCursor.xnb</Output>
+      <Time>2014-10-18T16:45:57.3932305+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\MapTileset.png</Source>
+      <Name>Map\world\00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps" Type="bool">false</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">Color</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Map\world\00.xnb</Output>
+      <Time>2014-10-19T12:49:15.7533716+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1\MapTileset.png</Source>
+      <Name>Level1\Level1\00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps" Type="bool">false</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">Color</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">false</Data>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1\00.xnb</Output>
+      <Time>2014-10-19T12:49:15.613371+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1\tree.png</Source>
+      <Name>Level1\Level1\01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps" Type="bool">false</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">Color</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">false</Data>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1\01.xnb</Output>
+      <Time>2014-10-19T12:49:15.6533706+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1\collision.png</Source>
+      <Name>Level1\Level1\02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps" Type="bool">false</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">Color</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">false</Data>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\Level1\Level1\02.xnb</Output>
+      <Time>2014-10-19T12:49:15.6233707+03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{04E4D594-76CB-45C5-AC6F-33755BA64801}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMythsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\XTiled\FuncWorks.XNA.XTiledExtensions.dll</Key>
+        <Value>2014-10-19T12:49:13.0133672+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\XTiled\x86\FuncWorks.XNA.XTiled.dll</Key>
+        <Value>2014-10-19T12:49:13.1533693+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-16T22:28:26.7264774+03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
