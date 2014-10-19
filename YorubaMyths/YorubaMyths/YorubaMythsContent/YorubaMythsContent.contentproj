@@ -59,6 +59,237 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level1\collision.png">
+      <Name>collision</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Level1\MapTileset.png">
+      <Name>MapTileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Level1\tree.png">
+      <Name>tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level1\Level1.tmx">
+      <Name>Level1</Name>
+      <Importer>TMXContentImporter</Importer>
+      <Processor>TMXContentProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprite\boss.png">
+      <Name>boss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\enemy_easy.png">
+      <Name>enemy_easy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\enemy_middle.png">
+      <Name>enemy_middle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\hero.png">
+      <Name>hero</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_axe1.png">
+      <Name>icon_axe1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_axe2.png">
+      <Name>icon_axe2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_axe3.png">
+      <Name>icon_axe3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_bigclub1.png">
+      <Name>icon_bigclub1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_bigclub2.png">
+      <Name>icon_bigclub2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_bigclub3.png">
+      <Name>icon_bigclub3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_Bow1.png">
+      <Name>icon_Bow1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_Bow2.png">
+      <Name>icon_Bow2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_Bow3.png">
+      <Name>icon_Bow3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_claw1.png">
+      <Name>icon_claw1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_claw2.png">
+      <Name>icon_claw2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_claw3.png">
+      <Name>icon_claw3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_dagger1.png">
+      <Name>icon_dagger1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_dagger2.png">
+      <Name>icon_dagger2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_dagger3.png">
+      <Name>icon_dagger3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_halberd1.png">
+      <Name>icon_halberd1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_halberd2.png">
+      <Name>icon_halberd2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_halberd3.png">
+      <Name>icon_halberd3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\ICON_hammer1.png.png">
+      <Name>ICON_hammer1.png</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_hammer2.png">
+      <Name>icon_hammer2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_hammer3.png">
+      <Name>icon_hammer3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_spear1.png">
+      <Name>icon_spear1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_spear2.png">
+      <Name>icon_spear2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_spear3.png">
+      <Name>icon_spear3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_staff1.png">
+      <Name>icon_staff1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_staff2.png">
+      <Name>icon_staff2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_staff3.png">
+      <Name>icon_staff3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_long1.png">
+      <Name>icon_sword_long1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_long2.png">
+      <Name>icon_sword_long2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_long3.png">
+      <Name>icon_sword_long3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_long4.png">
+      <Name>icon_sword_long4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_short1.png">
+      <Name>icon_sword_short1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_short2.png">
+      <Name>icon_sword_short2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_sword_short3.png">
+      <Name>icon_sword_short3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_XBow1.png">
+      <Name>icon_XBow1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_XBow2.png">
+      <Name>icon_XBow2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\weaponIcons32x32_png_Transparent\icon_XBow3.png">
+      <Name>icon_XBow3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

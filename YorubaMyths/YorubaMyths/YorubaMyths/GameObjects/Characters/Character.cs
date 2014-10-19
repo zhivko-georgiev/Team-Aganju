@@ -7,7 +7,7 @@
 
     using YorubaMyths.Interfaces;
 
-    public abstract class Character : GameObject, ICharacter, IMovable
+    public abstract class Character : GameObject, IMovable
     {
         public int MovementSpeed { get; set; }
     }

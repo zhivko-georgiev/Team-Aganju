@@ -25,7 +25,8 @@
         private const int HunterMovementSpeed = 2;
 
         public Hunter(int x, int y)
-            : base(HunterMovementSpeed, HunterHealtPoints, HunterDefensePoints, HunterAttackPoints, HunterRange, HunterRage, HunterAttackSpeed, HunterEnergy)
+            : base(HunterMovementSpeed, HunterHealtPoints, HunterDefensePoints, HunterAttackPoints, 
+            HunterRange, HunterRage, HunterAttackSpeed, HunterEnergy)
         {
             this.PositonX = x;
             this.PositionY = y;

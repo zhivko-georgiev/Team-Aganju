@@ -19,6 +19,10 @@ namespace YorubaMyths
     {
         private const int WindowWidth = 1024;
         private const int WindowHeight = 768;
+        float AspectRatio;
+        Point OldWindowSize;
+        Texture2D BlankTexture;
+        RenderTarget2D OffScreenRenderTarget;
 
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -31,10 +35,41 @@ namespace YorubaMyths
             graphics.PreferredBackBufferWidth = WindowWidth;
             graphics.PreferredBackBufferHeight = WindowHeight;
             
+            this.graphics.IsFullScreen = false;
+            this.Window.AllowUserResizing = true;
+            this.Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
+            
             // For full screen
             //this.graphics.IsFullScreen = true;
 
             Content.RootDirectory = "Content";
+        }
+
+        void Window_ClientSizeChanged(object sender, EventArgs e)
+        {
+            // Remove this event handler, so we don't call it when we change the window size in here
+            Window.ClientSizeChanged -= new EventHandler<EventArgs>(Window_ClientSizeChanged);
+
+            if (Window.ClientBounds.Width != OldWindowSize.X)
+            { // We're changing the width
+                // Set the new backbuffer size
+                graphics.PreferredBackBufferWidth = Window.ClientBounds.Width;
+                graphics.PreferredBackBufferHeight = (int)(Window.ClientBounds.Width / AspectRatio);
+            }
+            else if (Window.ClientBounds.Height != OldWindowSize.Y)
+            { // we're changing the height
+                // Set the new backbuffer size
+                graphics.PreferredBackBufferWidth = (int)(Window.ClientBounds.Height * AspectRatio);
+                graphics.PreferredBackBufferHeight = Window.ClientBounds.Height;
+            }
+
+            graphics.ApplyChanges();
+
+            // Update the old window size with what it is currently
+            OldWindowSize = new Point(Window.ClientBounds.Width, Window.ClientBounds.Height);
+
+            // add this event handler back
+            Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
         }
 
         /// <summary>
@@ -60,7 +95,16 @@ namespace YorubaMyths
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            map = Content.Load<Map>("Map/world");
+            map = Content.Load<Map>("Level1/Level1");
+
+            AspectRatio = GraphicsDevice.Viewport.AspectRatio;
+            OldWindowSize = new Point(Window.ClientBounds.Width, Window.ClientBounds.Height);
+
+            BlankTexture = new Texture2D(GraphicsDevice, 1, 1);
+            BlankTexture.SetData(new Color[] { Color.FromNonPremultiplied(255, 255, 255, 255) });
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            OffScreenRenderTarget = new RenderTarget2D(GraphicsDevice, Window.ClientBounds.Width, Window.ClientBounds.Height);
 
             // TODO: use this.Content to load your game content here
         }
@@ -72,6 +116,23 @@ namespace YorubaMyths
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
+            if (OffScreenRenderTarget != null)
+                OffScreenRenderTarget.Dispose();
+
+            if (BlankTexture != null)
+                BlankTexture.Dispose();
+
+            if (spriteBatch != null)
+                spriteBatch.Dispose();
+
+            base.UnloadContent();
+        }
+
+
+        protected override bool BeginDraw()
+        {
+            GraphicsDevice.SetRenderTarget(OffScreenRenderTarget);
+            return base.BeginDraw();
         }
 
         /// <summary>
@@ -123,16 +184,32 @@ namespace YorubaMyths
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            spriteBatch.Begin();
+            spriteBatch.Draw(BlankTexture, new Rectangle(100, 100, 100, 100), Color.White);
+            map.Draw(spriteBatch, mapView);
+            spriteBatch.End();
+            base.Draw(gameTime);
+
+
 
             // TODO: Add your drawing code here
-
+/*
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
             map.Draw(spriteBatch, mapView);
             spriteBatch.End();
 
-            base.Draw(gameTime);
+            base.Draw(gameTime);*/
+        }
+
+        protected override void EndDraw()
+        {
+            GraphicsDevice.SetRenderTarget(null);
+            spriteBatch.Begin();
+            spriteBatch.Draw(OffScreenRenderTarget, GraphicsDevice.Viewport.Bounds, Color.White);
+            spriteBatch.End();
+            base.EndDraw();
         }
     }
 }

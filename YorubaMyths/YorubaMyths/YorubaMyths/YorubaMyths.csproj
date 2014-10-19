@@ -92,6 +92,7 @@
     <Compile Include="GameObjects\Items\ItemType.cs" />
     <Compile Include="GameObjects\Items\Slots.cs" />
     <Compile Include="GameObjects\Items\Sword.cs" />
+    <Compile Include="GameObjects\Position.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IAttackItem.cs" />
     <Compile Include="Interfaces\ICast.cs" />
