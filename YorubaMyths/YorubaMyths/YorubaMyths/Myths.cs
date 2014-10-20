@@ -1,15 +1,9 @@
 namespace YorubaMyths
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using Microsoft.Xna.Framework;
-    using Microsoft.Xna.Framework.Audio;
-    using Microsoft.Xna.Framework.Content;
-    using Microsoft.Xna.Framework.GamerServices;
     using Microsoft.Xna.Framework.Graphics;
     using Microsoft.Xna.Framework.Input;
-    using Microsoft.Xna.Framework.Media;
     using FuncWorks.XNA.XTiled;
 
     /// <summary>
@@ -172,10 +166,7 @@ namespace YorubaMyths
             if (map.Bounds.Contains(delta))
                 mapView = delta;
 
-
-            MouseState mouseState = Mouse.GetState();
-            var mousePosition = new Point(mouseState.X, mouseState.Y);
-            // TODO: Add some mouse logic here
+            MouseManager.Instance.Update();
 
             base.Update(gameTime);
         }
@@ -190,7 +181,7 @@ namespace YorubaMyths
             spriteBatch.Begin();
             spriteBatch.Draw(BlankTexture, new Rectangle(100, 100, 100, 100), Color.White);
             map.Draw(spriteBatch, mapView);
-            spriteBatch.Draw(this.customCursor, new Vector2(Mouse.GetState().X, Mouse.GetState().Y), Color.White);
+            spriteBatch.Draw(this.customCursor, MouseManager.Instance.MousePosition, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
 
