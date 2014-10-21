@@ -5,8 +5,8 @@
 
     public abstract class PlayerRange : PlayerCharacter, IRange
     {
-        protected PlayerRange(int movementSpeed, int maxHealtPoints, int defensePoints, int attackPoints, int range, int rage, double autoAttackSpeed, int energy)
-            : base(movementSpeed, maxHealtPoints, defensePoints, attackPoints)
+        protected PlayerRange(int currentHealthPoints, int movementSpeed, int maxHealthPoints, int defensePoints, int attackPoints, int range, int rage, double autoAttackSpeed, int energy)
+            : base(currentHealthPoints, movementSpeed, maxHealthPoints, defensePoints, attackPoints)
         {
             this.Range = range;
             this.Rage = rage;

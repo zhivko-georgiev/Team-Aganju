@@ -2,13 +2,13 @@
 {
     public interface IPlayer
     {
-        int MaxHealtPoints { get; set; }
+        int MaxHealthPoints { get; set; }
 
         int DefensePoints { get; set; }
 
         int AttackPoints { get; set; }
 
-        int CurrentHealtPoints { get; set; }
+        int CurrentHealthPoints { get; set; }
 
         bool IsAlive { get; set; }
     }

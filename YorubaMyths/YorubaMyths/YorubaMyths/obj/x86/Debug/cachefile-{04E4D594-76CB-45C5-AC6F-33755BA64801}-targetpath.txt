@@ -52,3 +52,4 @@ Content\Map\world\00.xnb
 Content\Level1\Level1\00.xnb
 Content\Level1\Level1\01.xnb
 Content\Level1\Level1\02.xnb
+Content\georgia.xnb

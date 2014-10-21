@@ -1,1 +1,2 @@
 C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMythsContent\obj\x86\Debug\YorubaMythsContent.contentprojResolveAssemblyReference.cache
+F:\SoftUni\Projects\PrivateTeamAganju\Team-Aganju\YorubaMyths\YorubaMyths\YorubaMythsContent\obj\x86\Debug\YorubaMythsContent.contentprojResolveAssemblyReference.cache

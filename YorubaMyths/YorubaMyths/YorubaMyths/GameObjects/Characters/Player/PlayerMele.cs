@@ -7,8 +7,9 @@
     {
         private const int MeleRange = 2;
 
-        public PlayerMele(int movementSpeed, int maxHealtPoints, int defensePoints, int attackPoints, int rage, double autoAttackSpeed)
-            : base(movementSpeed, maxHealtPoints, defensePoints, attackPoints)
+        public PlayerMele(int currentHealthPoints, int movementSpeed, int maxHealtPoints,
+            int defensePoints, int attackPoints, int rage, double autoAttackSpeed)
+            : base(currentHealthPoints, movementSpeed, maxHealtPoints, defensePoints, attackPoints)
         {
             this.Range = MeleRange;
             this.Rage = rage;

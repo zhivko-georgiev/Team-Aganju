@@ -8,7 +8,7 @@
 
     public class Hunter : PlayerRange
     {
-        private const int HunterHealtPoints = 200;
+        private const int HunterHealthPoints = 200;
 
         private const int HunterDefensePoints = 50;
 
@@ -25,7 +25,7 @@
         private const int HunterMovementSpeed = 2;
 
         public Hunter(int x, int y)
-            : base(HunterMovementSpeed, HunterHealtPoints, HunterDefensePoints, HunterAttackPoints, 
+            : base(HunterHealthPoints, HunterMovementSpeed, HunterHealthPoints, HunterDefensePoints, HunterAttackPoints, 
             HunterRange, HunterRage, HunterAttackSpeed, HunterEnergy)
         {
             this.PositonX = x;

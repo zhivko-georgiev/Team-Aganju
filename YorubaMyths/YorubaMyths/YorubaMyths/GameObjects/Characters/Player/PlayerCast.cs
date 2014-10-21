@@ -5,8 +5,8 @@
 
     public abstract class PlayerCast : PlayerCharacter, ICastable
     {
-        protected PlayerCast(int movementSpeed, int maxHealtPoints, int defensePoints, int attackPoints, int spellRange, int spellPower, int mana)
-            : base(movementSpeed, maxHealtPoints, defensePoints, attackPoints)
+        protected PlayerCast(int currentHealthPoints, int movementSpeed, int maxHealthPoints, int defensePoints, int attackPoints, int spellRange, int spellPower, int mana)
+            : base(currentHealthPoints, movementSpeed, maxHealthPoints, defensePoints, attackPoints)
         {
             this.SpellRange = spellRange;
             this.SpellPower = spellPower;

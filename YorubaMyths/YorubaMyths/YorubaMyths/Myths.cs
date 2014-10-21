@@ -6,6 +6,8 @@ namespace YorubaMyths
     using Microsoft.Xna.Framework.Input;
     using FuncWorks.XNA.XTiled;
 
+    using YorubaMyths.GameObjects.Characters.Player;
+
     /// <summary>
     /// This is the main type for your game
     /// </summary>
@@ -23,13 +25,14 @@ namespace YorubaMyths
         SpriteBatch spriteBatch;
         Rectangle mapView;
         Map map;
+        static Player player = new Player(150, 200, 10, 50, 200);
+        HUD hud = new HUD(player);
 
         public Myths()
         {
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferWidth = WindowWidth;
             graphics.PreferredBackBufferHeight = WindowHeight;
-
             this.graphics.IsFullScreen = false;
             this.Window.AllowUserResizing = true;
             this.Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
@@ -81,6 +84,7 @@ namespace YorubaMyths
 
             base.Initialize();
             mapView = graphics.GraphicsDevice.Viewport.Bounds;
+            
         }
 
         /// <summary>
@@ -89,6 +93,7 @@ namespace YorubaMyths
         /// </summary>
         protected override void LoadContent()
         {
+            
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             map = Content.Load<Map>("Level1/Level1");
@@ -102,7 +107,7 @@ namespace YorubaMyths
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             OffScreenRenderTarget = new RenderTarget2D(GraphicsDevice, Window.ClientBounds.Width, Window.ClientBounds.Height);
-
+            hud.LoadContent(Content);
             // TODO: use this.Content to load your game content here
         }
 
@@ -181,6 +186,7 @@ namespace YorubaMyths
             spriteBatch.Begin();
             spriteBatch.Draw(BlankTexture, new Rectangle(100, 100, 100, 100), Color.White);
             map.Draw(spriteBatch, mapView);
+            hud.Draw(spriteBatch);
             spriteBatch.Draw(this.customCursor, MouseManager.Instance.MousePosition, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);

@@ -79,6 +79,7 @@
     <Compile Include="GameObjects\Characters\Character.cs" />
     <Compile Include="GameObjects\Characters\Hunter.cs" />
     <Compile Include="GameObjects\Characters\Mage.cs" />
+    <Compile Include="GameObjects\Characters\Player\Player.cs" />
     <Compile Include="GameObjects\Characters\Player\PlayerCast.cs" />
     <Compile Include="GameObjects\Characters\Player\PlayerCharacter.cs" />
     <Compile Include="GameObjects\Characters\Player\PlayerMele.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="GameObjects\Items\Slots.cs" />
     <Compile Include="GameObjects\Items\Sword.cs" />
     <Compile Include="GameObjects\Position.cs" />
+    <Compile Include="HUD.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IAttackItem.cs" />
     <Compile Include="Interfaces\ICast.cs" />

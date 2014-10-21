@@ -13,10 +13,11 @@
 
         private Slots playerSlots;
 
-        protected PlayerCharacter(int maxHealtPoints, int movementSpeed, int defensePoints, int attackPoints)
+        protected PlayerCharacter(int currentHealthPoints, int maxHealthPoints, int movementSpeed, int defensePoints, int attackPoints)
         {
+            this.CurrentHealthPoints = currentHealthPoints;
             this.MovementSpeed = movementSpeed;
-            this.MaxHealtPoints = maxHealtPoints;
+            this.MaxHealthPoints = maxHealthPoints;
             this.DefensePoints = defensePoints;
             this.AttackPoints = attackPoints;
             this.IsAlive = true;
@@ -25,13 +26,13 @@
             this.playerInventory = new List<Item>();
         }
 
-        public int MaxHealtPoints { get; set; }
+        public int MaxHealthPoints { get; set; }
 
         public int AttackPoints { get; set; }
 
         public int DefensePoints { get; set; }
 
-        public int CurrentHealtPoints { get; set; }
+        public int CurrentHealthPoints { get; set; }
 
         public bool IsAlive { get; set; }
 
@@ -123,7 +124,7 @@
         private void RemoveItemEffect(Item item)
         {
             this.DefensePoints -= item.DefensePoints;
-            this.MaxHealtPoints -= item.HealtPonints;
+            this.MaxHealthPoints -= item.HealtPonints;
         }
 
         private void AddItemEffect()
@@ -133,7 +134,7 @@
                 if (item != null)
                 {
                     this.DefensePoints += item.DefensePoints;
-                    this.MaxHealtPoints += item.HealtPonints;
+                    this.MaxHealthPoints += item.HealtPonints;
                 }
             }
         }
