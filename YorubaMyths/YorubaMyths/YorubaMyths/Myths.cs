@@ -172,7 +172,7 @@ namespace YorubaMyths
                 mapView = delta;
 
             MouseManager.Instance.Update();
-
+            
             base.Update(gameTime);
         }
 
