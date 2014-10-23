@@ -123,3 +123,4 @@ F:\SoftUni\Projects\PrivateTeamAganju\Team-Aganju\YorubaMyths\YorubaMyths\Yoruba
 F:\SoftUni\Projects\PrivateTeamAganju\Team-Aganju\YorubaMyths\YorubaMyths\YorubaMyths\obj\x86\Debug\YorubaMyths.exe
 F:\SoftUni\Projects\PrivateTeamAganju\Team-Aganju\YorubaMyths\YorubaMyths\YorubaMyths\obj\x86\Debug\YorubaMyths.pdb
 F:\SoftUni\Projects\PrivateTeamAganju\Team-Aganju\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\georgia.xnb
+C:\Users\zdgeorgiev\Desktop\Team Aganju\trunk\YorubaMyths\YorubaMyths\YorubaMyths\bin\x86\Debug\Content\georgia.xnb
