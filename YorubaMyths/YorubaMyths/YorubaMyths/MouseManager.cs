@@ -39,7 +39,7 @@
         /// <summary>
         /// Get the rectangle at the current mouse position
         /// </summary>
-        public Rectangle MouseRectanle
+        public Rectangle MouseRectangle
         {
             get { return new Rectangle(this.currentMouseState.X, this.currentMouseState.Y, 1, 1); }
         }

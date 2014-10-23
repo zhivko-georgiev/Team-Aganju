@@ -76,9 +76,19 @@
    eJztmVFOwzAQRGMOAAeAA8AB4Ds9QPmGA8AB4P4SjsSqlttta8e7nrjzpH44tGEzu86s7WkihJDxCWGa7oI+Jgc8tLmP938I+hgF0aJnvaTaWMXxGO/5FPSx8BGvfXbMk2jRs15SbazieI73fAn6WPiK175Dv7yIFlq9eJBqYxXHa7znW9DHwk+89hsOefFGtNDqxYNUm55xpEhevBEttHrpFQ+xhf0lFqj95a3Ss18gx6D49GjU+kDq0/SSdrTwAW09zjzpaNq08AFtPY7u+T33UjRtWviAth5fk2uPudVrzb6gadNivaatx9fkWurHMi/n1uzWc8erH0pzsybXUj8e77xT2lvPna3tW0j9eKxzTmnfa78LFakfj3lN7S8jvrG1eT0KuW+j98qjk+u/xjfm+Lsdc7mKXP8a35A87OPnPVyfF+4jHJPrX+MbkgdtrMF34zE9fZtnB1jw7ACLLfTU7FEwyHuUBfYfPuRzYE7ysEv+5tl/lOZ+pFrJ+/T9/2fO8uHZf5TmfsReVevb5Zpn/1Ga+1vsVT37j9Lcs1e1pTT3y/eRPMQrFuv/s+b+uYe0OGutjcfLz6zPs0ufI40j95AWZ621unr5mfV5dulzpHHkHtLivK9WVy8/sz7PLn2ONA6LfqNW1zwWq/eJ9Xl2qabWddgqx9Z+grL3hhLHJW5xfYTMNfMYqV8fnWvm8Yh7PluG7zQsuOeDBWpvQl/Dgr6GBX0NC/oaFqi+5g19FAv6KBb0USzoo1jQRwkh5Dx/XGI7qQ==
   </data>
  </layer>
- <layer name="Collision" width="100" height="60" visible="0">
+ <layer name="Collision" width="100" height="60" opacity="0.5">
   <data encoding="base64" compression="zlib">
    eJztmFFuAyEMRNP7X6LfOWV/UmlLjWfG2LAkIFlRFrDH82Cr5vn1+H6eYOIxKVb3uUPMYnF4HB47xlIej8u4gRd3CMrLdmTwMHKu9uIOQflvjQoehxHnfRITl4dTY4oXq+tn8BCZyCxaX6xnlSxQ/YgGkMOr/y8IzWU8QF2Yd4RFZm0wj2rJTJz9pTyYNcr7Sam9kofCpMcjm4nCg103+h5ThsXD8pr4m+AyyuCR9b6Pvs+8us5zaVx5IF9n82jXRHhY69C7wqrv1XWe0zyIM+DtTeXheRs5q+3+kWfeWSA4UX2T4Q7E4/qZrIvmgjyOjsjZIPqH53zkjoAo4cEyGmUS5ez0Dz1HbN6ZhzeP9vXmGt+69wHsezseV78VXuT5Z2r/48EMxG0XHp636h7L/15exlfgf5tbZsGsWcHD6jWyj/AM7mNZMPXbnIj1HXh4/SJmyLNeXsaLiKZeXnbclYeg371fwvMSHsxdY7TsxmMkP+NZhXakJ8KD0VzJJItHtE6W5lZPhIeie4SLN19595g6vbVMLmc+jQfSX8HLq82sH9Gu1ma0RXhU9jhaeyaPIv3lPK69jnrB1FDucERD5n1+1URB11G9YtZk9Y3mVt+Fl44yHkjPyN3yalXkzObx7PyOYj0b4YH6a+e87+zYkcer1p9wNEk8PA9Ur7L9zMhRxUPQI/Po1YvwSOzDO5vU3I48WE8q1rO5onNRPSP7n/i395C+rD3MWmW+QouSw4g/fhs5aB6DOsJ3XV3n7VU8RWuDPqAcYR7ZHNgzPoNHZH5nHigXU8vvDGv01mfoU3kYLOSzmMEi4od63qN6kC6lzo481H6j+yI5Ruv88ugxqeSBelRHlPUMHoEz2fM+zMPTQZv84P9Hj96/gFeprBO4TOeRfPam8EjKGeahaLI8zfT7jXhM0dTzfRaP31qrOSvnUvVD2f8JPFB+5Lvip5I7S/+OPLwalTy8/Fn6dwjFgzvxyKh314j6zI7DY08elpaI5tV+ZvGwes3gVsHjxDwmJw6PHSPK4vBYz2O11k+Kw+PEiROfEj9S1XBW
   </data>
  </layer>
+ <objectgroup name="Objects">
+  <object name="SpawnPoint" x="243" y="309" width="28" height="27"/>
+ </objectgroup>
+ <objectgroup name="Collision">
+  <object name="collision" x="257" y="128" width="31" height="94"/>
+  <object name="collision" x="290" y="112" width="749" height="78"/>
+  <object name="collision" x="94" y="98" width="161" height="28"/>
+  <object name="collision" x="66" y="160" width="62" height="97"/>
+  <object name="collision" x="69" y="127" width="91" height="29"/>
+ </objectgroup>
 </map>

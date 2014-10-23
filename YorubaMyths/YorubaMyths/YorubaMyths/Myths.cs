@@ -4,6 +4,7 @@ namespace YorubaMyths
     using Microsoft.Xna.Framework;
     using Microsoft.Xna.Framework.Graphics;
     using Microsoft.Xna.Framework.Input;
+    using System.Linq;
     using FuncWorks.XNA.XTiled;
 
     using YorubaMyths.GameObjects.Characters.Player;
@@ -20,6 +21,7 @@ namespace YorubaMyths
         Texture2D BlankTexture;
         RenderTarget2D OffScreenRenderTarget;
 
+        private ObjectLayer collisionLayer;
         Texture2D customCursor;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -28,6 +30,18 @@ namespace YorubaMyths
         static Player player = new Player(150, 200, 10, 50, 200);
         HUD hud = new HUD(player);
 
+        private ObjectLayer objLayer;
+        int xDir = 0;
+        int xDirOffset = 0;
+        int yDir = 0;
+        int yDirOffset = 0;
+        bool enableHorizontal = true;
+        bool enableVertical = false;
+        bool enableDiagonal = false;
+        Rectangle mapScreenSize;
+        float duration = 0.08f;
+        int xScreenOffset = 20;
+        int yScreenOffset = 35;  
         public Myths()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -84,7 +98,6 @@ namespace YorubaMyths
 
             base.Initialize();
             mapView = graphics.GraphicsDevice.Viewport.Bounds;
-            
         }
 
         /// <summary>
@@ -93,11 +106,11 @@ namespace YorubaMyths
         /// </summary>
         protected override void LoadContent()
         {
-            
+
+
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             map = Content.Load<Map>("Level1/Level1");
-
             customCursor = Content.Load<Texture2D>("mouseCursor");
             AspectRatio = GraphicsDevice.Viewport.AspectRatio;
             OldWindowSize = new Point(Window.ClientBounds.Width, Window.ClientBounds.Height);
@@ -108,6 +121,21 @@ namespace YorubaMyths
 
             OffScreenRenderTarget = new RenderTarget2D(GraphicsDevice, Window.ClientBounds.Width, Window.ClientBounds.Height);
             hud.LoadContent(Content);
+            this.collisionLayer = this.map.ObjectLayers["Collision"];
+            player.LoadContent(Content, "hero", mapView, collisionLayer);
+
+            // Setting player position.  
+            this.objLayer = this.map.ObjectLayers["Objects"];
+            MapObject mapObj = this.objLayer.MapObjects.Where(p => p.Name.Equals("SpawnPoint", StringComparison.CurrentCultureIgnoreCase)).Select(p => p).First();
+            
+            // Verificaion.  
+            if (mapObj != null)
+            {
+                // Get coordinates.  
+                Rectangle pos = Map.Translate(mapObj.Bounds, this.mapView);
+                player.position = new Vector2(pos.X, pos.Y);
+            } 
+           
             // TODO: use this.Content to load your game content here
         }
 
@@ -158,16 +186,32 @@ namespace YorubaMyths
             if (keys.IsKeyDown(Keys.Escape))
                 this.Exit();
 
-            Rectangle delta = mapView;
-            if (keys.IsKeyDown(Keys.Down))
-                delta.Y += Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
-            if (keys.IsKeyDown(Keys.Up))
-                delta.Y -= Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
-            if (keys.IsKeyDown(Keys.Right))
-                delta.X += Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
-            if (keys.IsKeyDown(Keys.Left))
-                delta.X -= Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+            player.Update(gameTime);
 
+            Rectangle delta = mapView;
+
+
+            if (keys.IsKeyDown(Keys.Down))
+            {
+                delta.Y += Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+                player.position.Y -= Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+            }
+            if (keys.IsKeyDown(Keys.Up))
+            {
+                delta.Y -= Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+                player.position.Y += Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+            }
+            if (keys.IsKeyDown(Keys.Right))
+            {
+                delta.X += Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+                player.position.X -= Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+            }
+            if (keys.IsKeyDown(Keys.Left))
+            {
+                delta.X -= Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+                player.position.X += Convert.ToInt32(gameTime.ElapsedGameTime.TotalMilliseconds / 4);
+            }
+            
             if (map.Bounds.Contains(delta))
                 mapView = delta;
 
@@ -185,11 +229,14 @@ namespace YorubaMyths
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
             spriteBatch.Draw(BlankTexture, new Rectangle(100, 100, 100, 100), Color.White);
+            
             map.Draw(spriteBatch, mapView);
+            player.Draw(spriteBatch);
             hud.Draw(spriteBatch);
             spriteBatch.Draw(this.customCursor, MouseManager.Instance.MousePosition, Color.White);
+            
             spriteBatch.End();
-            base.Draw(gameTime);
+
 
 
 
